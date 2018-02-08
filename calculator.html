@@ -1,6 +1,10 @@
-<!DOCTYPE html><html><head>
+<!DOCTYPE html><html>
 
-<title>Calculator</title><meta charset="utf-8">
+<head>
+
+<title>Calculator</title>
+
+<meta charset="utf-8">
 
 <script type="text/javascript">
 
@@ -11,12 +15,19 @@ var num = document.getElementById("n1");
 num.value = Math.pow(num.value, 3);
 
 }
+function four() {
 
+var num = document.getElementById("n1");
+
+num.value = Math.pow(num.value, 4);
+
+}
 </script>
 
 </head>
 
 <body>
+
 <h1>Calculadora de Pier Paolo Zini</h1>
 
 Number:
@@ -24,6 +35,8 @@ Number:
 <input type="text" id="n1"><p>
 
 <button onclick="cube()"> x^3 </button>
+
+<button onclick="four()"> x^4 </button>
 
 </body>
 
